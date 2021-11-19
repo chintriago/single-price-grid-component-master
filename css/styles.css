@@ -65,7 +65,7 @@ main {
   align-items: center;
 }
 
-/* CARD */
+/* CARD CONTAINER */
 .card-container {
   width: 325px;
 }
@@ -87,6 +87,7 @@ main {
   color: var(--bright-yellow);
   font-size: 0.95rem;
   font-weight: 700;
+  line-height: 1.5;
   margin-bottom: 20px;
 }
 
@@ -101,6 +102,48 @@ main {
 /* CARD 2 */
 .card-2 {
   background-color: var(--cyan);
+}
+
+.card-2 h2 {
+  color: white;
+  font-size: 1.25rem;
+  font-weight: 400;
+  margin-bottom: 20px;
+  letter-spacing: 0.05em;
+}
+
+.card-2 h3 {
+  color: white;
+  font-size: 0.95rem;
+  font-weight: 400;
+  margin-bottom: 10px;
+  letter-spacing: 0.05em;
+}
+
+.card-2 h3 span {
+  color: white;
+  font-size: 2rem;
+  font-weight: 700;
+  margin-right: 10px;
+}
+
+.card-2 p {
+  color: white;
+  font-size: 1.05rem;
+  letter-spacing: 0.02em;
+  margin-bottom: 30px;
+}
+
+.card-2 a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--bright-yellow);
+  border-radius: 8px;
+  color: white;
+  font-size: 1.1rem;
+  letter-spacing: 0.05em;
+  padding: 15px;
 }
 
 /* CARD 3 */
