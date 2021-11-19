@@ -1,0 +1,83 @@
+/* GENERAL/RESET */
+:root {
+    --cyan: hsl(179, 62%, 43%);
+    --bright-yellow: hsl(71, 73%, 54%);
+    --light-gray: hsl(204, 43%, 93%);
+    --grayish-blue: hsl(218, 22%, 67%);
+}
+
+html {
+    box-sizing: border-box;
+    background-color: var(--light-gray);
+    font-size: 16px;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+a,
+a:visited {
+    text-decoration: none;
+}
+
+/* HTML CLASSES */
+.card-padding {
+    padding: 20px;
+}
+
+/* MAIN CONTENT */
+main {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* CARD */
+.card-container {
+    width: 325px;
+    display: grid;
+}
+
+/* CARD 1 */
+.card-1 {
+    background-color: white;
+}
+
+/* CARD 2 */
+.card-2 {
+    background-color: var(--cyan);
+}
+
+/* CARD 3 */
+.card-3 {
+    background-color: var(--cyan);
+}
