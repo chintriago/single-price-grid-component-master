@@ -8,7 +8,11 @@
 
 html {
     box-sizing: border-box;
+}
+
+body {
     background-color: var(--light-gray);
+    font-family: "Kumbh Sans", sans-serif;
     font-size: 16px;
 }
 
@@ -50,7 +54,7 @@ a:visited {
 
 /* HTML CLASSES */
 .card-padding {
-    padding: 20px;
+    padding: 25px;
 }
 
 /* MAIN CONTENT */
@@ -70,6 +74,13 @@ main {
 /* CARD 1 */
 .card-1 {
     background-color: white;
+}
+
+.card-1 h1 {
+    color: var(--cyan);
+    font-size: 1.45rem;
+    font-weight: 700;
+    margin-bottom: 20px;
 }
 
 /* CARD 2 */
