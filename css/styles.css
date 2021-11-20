@@ -1,25 +1,25 @@
 /* GENERAL/RESET */
 :root {
-  --cyan: hsl(179, 62%, 43%);
-  --bright-yellow: hsl(71, 73%, 54%);
-  --light-gray: hsl(204, 43%, 93%);
-  --grayish-blue: hsl(218, 22%, 67%);
+    --cyan: hsl(179, 62%, 43%);
+    --bright-yellow: hsl(71, 73%, 54%);
+    --light-gray: hsl(204, 43%, 93%);
+    --grayish-blue: hsl(218, 22%, 67%);
 }
 
 html {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 body {
-  background-color: var(--light-gray);
-  font-family: "Kumbh Sans", sans-serif;
-  font-size: 16px;
+    background-color: var(--light-gray);
+    font-family: "Kumbh Sans", sans-serif;
+    font-size: 16px;
 }
 
 *,
 *:before,
 *:after {
-  box-sizing: inherit;
+    box-sizing: inherit;
 }
 
 body,
@@ -32,121 +32,128 @@ h6,
 p,
 ol,
 ul {
-  margin: 0;
-  padding: 0;
-  font-weight: normal;
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
 }
 
 ol,
 ul {
-  list-style: none;
+    list-style: none;
 }
 
 img {
-  max-width: 100%;
-  height: auto;
+    max-width: 100%;
+    height: auto;
 }
 
 a,
 a:visited {
-  text-decoration: none;
+    text-decoration: none;
 }
 
 /* HTML CLASSES */
 .card-padding {
-  padding: 25px;
+    padding: 25px 20px;
 }
 
 /* MAIN CONTENT */
 main {
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /* CARD CONTAINER */
 .card-container {
-  width: 325px;
+    width: 325px;
 }
 
 /* CARD 1 */
 .card-1 {
-  background-color: white;
+    background-color: white;
 }
 
 .card-1 h1 {
-  color: var(--cyan);
-  font-size: 1.25rem;
-  font-weight: 700;
-  margin-bottom: 20px;
-  letter-spacing: 0.05em;
+    color: var(--cyan);
+    font-size: 1.35rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+    letter-spacing: 0.05em;
 }
 
 .card-1 h2 {
-  color: var(--bright-yellow);
-  font-size: 0.95rem;
-  font-weight: 700;
-  line-height: 1.5;
-  margin-bottom: 20px;
+    color: var(--bright-yellow);
+    font-size: 0.99rem;
+    font-weight: 700;
+    line-height: 1.5;
+    margin-bottom: 20px;
 }
 
 .card-1 p {
-  color: var(--grayish-blue);
-  font-size: 0.85rem;
-  font-weight: 400;
-  letter-spacing: 0.02em;
-  line-height: 1.8;
+    color: var(--grayish-blue);
+    font-size: 0.9rem;
+    font-weight: lighter;
+    line-height: 1.8;
 }
 
 /* CARD 2 */
 .card-2 {
-  background-color: var(--cyan);
+    background-color: var(--cyan);
 }
 
 .card-2 h2 {
-  color: white;
-  font-size: 1.25rem;
-  font-weight: 400;
-  margin-bottom: 20px;
-  letter-spacing: 0.05em;
+    color: white;
+    font-size: 1.25rem;
+    font-weight: 400;
+    margin-bottom: 20px;
+    letter-spacing: 0.05em;
 }
 
 .card-2 h3 {
-  color: white;
-  font-size: 0.95rem;
-  font-weight: 400;
-  margin-bottom: 10px;
-  letter-spacing: 0.05em;
+    color: rgba(255, 255, 255, 0.658);
+    font-size: 0.95rem;
+    margin-bottom: 10px;
+    letter-spacing: 0.03em;
 }
 
 .card-2 h3 span {
-  color: white;
-  font-size: 2rem;
-  font-weight: 700;
-  margin-right: 10px;
+    color: white;
+    font-size: 1.8rem;
+    font-weight: 400;
+    margin-right: 10px;
 }
 
 .card-2 p {
-  color: white;
-  font-size: 1.05rem;
-  letter-spacing: 0.02em;
-  margin-bottom: 30px;
+    color: white;
+    font-size: 0.95rem;
+    font-weight: 400;
+    letter-spacing: 0.02em;
+    margin-bottom: 30px;
 }
 
 .card-2 a {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: var(--bright-yellow);
-  border-radius: 8px;
-  color: white;
-  font-size: 1.1rem;
-  letter-spacing: 0.05em;
-  padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--bright-yellow);
+    border-radius: 8px;
+    color: white;
+    font-weight: 400;
+    letter-spacing: 0.05em;
+    padding: 15px;
 }
 
 /* CARD 3 */
 .card-3 {
-  background-color: var(--cyan);
+    background-color: hsla(179, 62%, 43%, 0.829);
+}
+
+/* FOOTER */
+footer {
+    width: 325px;
+    text-align: center;
+    margin: auto;
+    padding: 20px;
 }
