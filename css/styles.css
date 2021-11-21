@@ -68,11 +68,15 @@ main {
 /* CARD CONTAINER */
 .card-container {
     width: 325px;
+    margin: 75px auto;
+    border-radius: 8px;
+    box-shadow: 5px 10px 8px rgba(0, 0, 0, 0.123);
 }
 
 /* CARD 1 */
 .card-1 {
     background-color: white;
+    border-radius: 8px 8px 0 0;
 }
 
 .card-1 h1 {
@@ -143,11 +147,27 @@ main {
     font-weight: 400;
     letter-spacing: 0.05em;
     padding: 15px;
+    box-shadow: 5px 10px 8px rgba(0, 0, 0, 0.123);
 }
 
 /* CARD 3 */
 .card-3 {
     background-color: hsla(179, 62%, 43%, 0.829);
+    border-radius: 0 0 8px 8px;
+}
+
+.card-3 h2 {
+    color: white;
+    font-size: 1.25rem;
+    letter-spacing: 0.05em;
+    margin-bottom: 20px;
+}
+
+.card-3 p {
+    color: rgba(255, 255, 255, 0.719);
+    font-size: 0.75rem;
+    line-height: 1.8;
+    letter-spacing: 0.05em;
 }
 
 /* FOOTER */
@@ -156,4 +176,12 @@ footer {
     text-align: center;
     margin: auto;
     padding: 20px;
+}
+
+footer a {
+    color: var(--cyan);
+}
+
+footer a:nth-child(2) {
+    color: var(--bright-yellow);
 }
