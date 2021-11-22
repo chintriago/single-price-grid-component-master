@@ -70,7 +70,7 @@ main {
     width: 325px;
     margin: 75px auto;
     border-radius: 8px;
-    box-shadow: 5px 10px 8px rgba(0, 0, 0, 0.123);
+    box-shadow: 0 20px 35px -10px hsla(224, 23%, 55%, 0.671);
 }
 
 /* CARD 1 */
@@ -118,7 +118,7 @@ main {
 .card-2 h3 {
     color: rgba(255, 255, 255, 0.658);
     font-size: 0.95rem;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     letter-spacing: 0.03em;
 }
 
@@ -133,8 +133,8 @@ main {
     color: white;
     font-size: 0.95rem;
     font-weight: 400;
-    letter-spacing: 0.02em;
-    margin-bottom: 30px;
+    letter-spacing: 0.03em;
+    margin-bottom: 40px;
 }
 
 .card-2 a {
@@ -146,8 +146,8 @@ main {
     color: white;
     font-weight: 400;
     letter-spacing: 0.05em;
-    padding: 15px;
-    box-shadow: 5px 10px 8px rgba(0, 0, 0, 0.123);
+    padding: 18px;
+    box-shadow: 0 20px 35px -10px hsla(224, 23%, 55%, 0.671);
 }
 
 /* CARD 3 */
@@ -184,4 +184,47 @@ footer a {
 
 footer a:nth-child(2) {
     color: var(--bright-yellow);
+}
+
+/* MEDIA QUERIES */
+@media only screen and (min-width: 700px) {
+    .card-padding {
+        padding: 40px;
+    }
+
+    .card-container {
+        width: 700px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 250px 300px;
+        grid-template-areas:
+            "card-1 card-1"
+            "card-2 card-3";
+    }
+
+    .card-1 {
+        grid-area: card-1;
+    }
+
+    .card-1 h1 {
+        font-size: 1.5rem;
+    }
+
+    .card-1 h2 {
+        font-size: 1.3rem;
+    }
+
+    .card-1 p {
+        font-size: 1.15rem;
+    }
+
+    .card-2 {
+        grid-area: card-2;
+        border-radius: 0 0 0 8px;
+    }
+
+    .card-3 {
+        border-radius: 0 0 8px 0;
+        grid-area: card-3;
+    }
 }
