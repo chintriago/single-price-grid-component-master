@@ -188,10 +188,12 @@ footer a:nth-child(2) {
 
 /* MEDIA QUERIES */
 @media only screen and (min-width: 700px) {
+    /* GENERAL/RESET */
     .card-padding {
         padding: 40px;
     }
 
+    /* MAIN CONTENT */
     .card-container {
         width: 700px;
         display: grid;
@@ -202,6 +204,7 @@ footer a:nth-child(2) {
             "card-2 card-3";
     }
 
+    /* CARD-1 */
     .card-1 {
         grid-area: card-1;
     }
@@ -218,11 +221,13 @@ footer a:nth-child(2) {
         font-size: 1.15rem;
     }
 
+    /* CARD-2 */
     .card-2 {
         grid-area: card-2;
         border-radius: 0 0 0 8px;
     }
 
+    /* CARD-3 */
     .card-3 {
         border-radius: 0 0 8px 0;
         grid-area: card-3;
