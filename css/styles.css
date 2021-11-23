@@ -12,7 +12,7 @@ html {
 
 body {
     background-color: var(--light-gray);
-    font-family: "Kumbh Sans", sans-serif;
+    font-family: "Karla", sans-serif;
     font-size: 16px;
 }
 
@@ -54,7 +54,7 @@ a:visited {
 
 /* HTML CLASSES */
 .card-padding {
-    padding: 25px 20px;
+    padding: 25px;
 }
 
 /* MAIN CONTENT */
@@ -81,25 +81,24 @@ main {
 
 .card-1 h1 {
     color: var(--cyan);
-    font-size: 1.35rem;
+    font-size: 1.5rem;
     font-weight: 700;
     margin-bottom: 20px;
-    letter-spacing: 0.05em;
 }
 
 .card-1 h2 {
     color: var(--bright-yellow);
-    font-size: 0.99rem;
+    font-size: 1.1rem;
     font-weight: 700;
-    line-height: 1.5;
     margin-bottom: 20px;
 }
 
 .card-1 p {
     color: var(--grayish-blue);
-    font-size: 0.9rem;
-    font-weight: lighter;
-    line-height: 1.8;
+    font-size: 0.95rem;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.06em;
 }
 
 /* CARD 2 */
@@ -109,10 +108,10 @@ main {
 
 .card-2 h2 {
     color: white;
-    font-size: 1.25rem;
-    font-weight: 400;
+    font-size: 1.1rem;
+    font-weight: 700;
     margin-bottom: 20px;
-    letter-spacing: 0.05em;
+    letter-spacing: 0.03em;
 }
 
 .card-2 h3 {
@@ -125,16 +124,15 @@ main {
 .card-2 h3 span {
     color: white;
     font-size: 1.8rem;
-    font-weight: 400;
+    font-weight: 700;
     margin-right: 10px;
 }
 
 .card-2 p {
     color: white;
     font-size: 0.95rem;
-    font-weight: 400;
-    letter-spacing: 0.03em;
-    margin-bottom: 40px;
+    font-size: lighter;
+    margin-bottom: 30px;
 }
 
 .card-2 a {
@@ -144,9 +142,9 @@ main {
     background-color: var(--bright-yellow);
     border-radius: 8px;
     color: white;
-    font-weight: 400;
+    font-weight: 700;
     letter-spacing: 0.05em;
-    padding: 18px;
+    padding: 14px;
     box-shadow: 0 20px 35px -10px hsla(224, 23%, 55%, 0.671);
 }
 
@@ -156,18 +154,17 @@ main {
     border-radius: 0 0 8px 8px;
 }
 
-.card-3 h2 {
-    color: white;
-    font-size: 1.25rem;
-    letter-spacing: 0.05em;
-    margin-bottom: 20px;
+.card-3 li {
+    color: rgba(255, 255, 255, 0.719);
+    font-size: 0.95rem;
+    line-height: 1.4;
 }
 
-.card-3 p {
-    color: rgba(255, 255, 255, 0.719);
-    font-size: 0.75rem;
-    line-height: 1.8;
-    letter-spacing: 0.05em;
+.card-3 li:nth-child(1) {
+    color: white;
+    font-size: 1.25rem;
+    font-weight: 700;
+    padding-bottom: 10px;
 }
 
 /* FOOTER */
@@ -196,9 +193,10 @@ footer a:nth-child(2) {
     /* MAIN CONTENT */
     .card-container {
         width: 700px;
+        margin: 0;
         display: grid;
         grid-template-columns: 1fr 1fr;
-        grid-template-rows: 250px 300px;
+        grid-template-rows: 225px 275px;
         grid-template-areas:
             "card-1 card-1"
             "card-2 card-3";
@@ -207,18 +205,6 @@ footer a:nth-child(2) {
     /* CARD-1 */
     .card-1 {
         grid-area: card-1;
-    }
-
-    .card-1 h1 {
-        font-size: 1.5rem;
-    }
-
-    .card-1 h2 {
-        font-size: 1.3rem;
-    }
-
-    .card-1 p {
-        font-size: 1.15rem;
     }
 
     /* CARD-2 */
